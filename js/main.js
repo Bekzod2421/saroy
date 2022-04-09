@@ -1,0 +1,66 @@
+$(document).ready(function(){
+	$(".room-slayd").owlCarousel({
+		loop:true,
+		dots: false,
+		nav:true,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+				nav:false
+			},
+			575:{
+				items:1,
+				nav:false
+			},
+			767:{
+				items:1,
+				nav:false
+			},
+			991:{
+				items:3,
+				nav:true
+			}
+		}
+	});
+	$(".slasyds-first").owlCarousel({
+		loop:true,
+		dots: true,
+		nav:false,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+			},
+			575:{
+				items:1,
+			},
+			767:{
+				items:1,
+			},
+			991:{
+				items:3,
+			}
+		}
+	});
+	$(".slasyds-secondary").owlCarousel({
+		loop:true,
+		dots: false,
+		nav: true,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+			},
+			575:{
+				items:1,
+			},
+			767:{
+				items:1,
+			},
+			991:{
+				items:3,
+			}
+		}
+	});
+});
